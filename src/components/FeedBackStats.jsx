@@ -1,5 +1,4 @@
 function FeedbackStats({ feedback }) {
-  console.log(feedback);
   let average =
     feedback.reduce((acc, cur) => {
       return acc + cur.rating;
